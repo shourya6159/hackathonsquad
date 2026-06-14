@@ -6,8 +6,8 @@ For each coder the score is calculated as:
 
 Total priority score = (a* Skill level)/ (b*number of conflicts this coder has + 1).
 
-Here the coders with more skill are preferred but the coders with more conflicts are penalized too!
-Where a and b are random numbers between 0.1 to 10. 
+a and b are random numbers between 0.1 to 10. 
+Here the coders with more skill are preferred but the coders with more conflicts are penalized too! 
 When a and b are almost same this denotes equal weightages. a>>b would create a team with more weightage to skills and b>>a would make a team where coders with more conflicts are punished more.
 
 After sorting students by priority, we run a fast draft, adding people to the team if their enemies are not already inside. Then we perform strategic bench swaps. The code checks if a benched student (a student not chosen) is mathematically stronger than the combined power of their enemies currently on the team. If so, it kicks the weaker enemies off and swaps the stronger student in. This upgrade cycle repeats until no further score improvements can be made.
