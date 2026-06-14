@@ -5,11 +5,11 @@
 #include <random>
 
 
-//Although we commented the code as much as we could read readme in github repo for more info
+//Although we commented the code as much as you can read readme in github repo for more info
 
 
 using namespace std;
-// We created a simple struct so we don't have to pass around loose variables
+// We created a simple struct so we don't have to pass around loose variables/ large arrays
 struct Coder {
     int id;
     long long skill;
