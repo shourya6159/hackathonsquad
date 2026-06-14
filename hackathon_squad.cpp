@@ -5,7 +5,7 @@
 #include <random>
 
 
-//Although we commented the code as much as you can read readme in github repo for more info
+//Although we commented the code as much as we could - you can read readme in github repo for more info
 
 
 using namespace std;
