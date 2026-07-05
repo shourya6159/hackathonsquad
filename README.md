@@ -1,3 +1,4 @@
+
 Our code first identifies students with zero enemies and automatically adds them to the final team. Because the total number of conflicts is relatively low, this filters out tens of thousands of students immediately, massively shrinking our processing pool and speeding up the program.
 
 The remaining students enter a continuous search loop that runs for exactly 293 seconds, leaving a 7 second safety net to ensure safe execution. In each loop, every student gets a priority score by dividing their skill by their enemy count. To explore different team combinations, we multiply the skill and enemy counts by completely random numbers each time, allowing the algorithm to smoothly shift between prioritizing raw skill or friendly students. We also add a microscopic random jitter to break ties.
